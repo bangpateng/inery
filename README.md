@@ -95,9 +95,19 @@ Jika Sudah Seperti gambar di Bawah diatas, Artinya Block Sudah Jalan
 
 ## Jalankan Node
 Buka direktori lite.node Lokasi : `cd root/inery-node/inery.setup/lite.node/` dan jalankan skrip ./start.sh
+Buka Tab baru atau Tab Lain, Jalankan
 ```
 cd ~/inery-node/inery.setup/lite.node/
 ```
 ```
+chmod +x start.sh
+```
+```
 ./start.sh
 ```
+
+<p align="center">
+  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184124841-87e95c29-2a1c-4d7e-beac-31a35549869e.PNG">
+</p>
+
+Anda Akan Melihat di Tab Pertama yang Sebelumnya Sudah kalian Screen, Seperti Gambar di Atas. Instal Node Lite Selesai
