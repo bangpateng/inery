@@ -39,4 +39,5 @@ cd tools
 ```
 nano config.json
 ```
+di Bagian Lite Node "PEER_ADDRESS" : "`IP`:9010" Ganti Dengan IP VPS Kalian
 Simpan (ctrl+S), Ketik "Y" dan keluar (ctrl+X)
