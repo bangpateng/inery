@@ -77,7 +77,10 @@ cd inery-node/inery.setup
 Jika semuanya diatur dengan benar, setelah menjalankan perintah di atas, Anda seharusnya dapat melihat pemutaran ulang blok, mungkin hingga beberapa jam hingga sinkronisasi selesai. Setelah blockchain diputar ulang, Anda akan melihat blok baru yang dibuat
 
 ## Jalankan Node
-Buka direktori lite.node dan jalankan skrip ./start.sh
+Buka direktori lite.node Lokasi : `cd root/inery-node/inery.setup/lite.node/` dan jalankan skrip ./start.sh
+```
+cd ~/inery-node/inery.setup/lite.node/
+```
 ```
 ./start.sh
 ```
