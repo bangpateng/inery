@@ -33,7 +33,7 @@ libcurl4-gnutls-dev pkg-config patch llvm-7-dev clang-7 vim-common jq libncurses
 ```
 ## On Port
 ```
-ufw allow 22 && ufw allow 8888 && ufw allow 9010 && ufw enable
+ufw allow 22 && ufw allow 8888 && ufw allow 9010 && ufw enable -y
 ```
 ## Mulai Node
 ```
