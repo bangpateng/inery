@@ -111,3 +111,24 @@ chmod +x start.sh
 </p>
 
 Anda Akan Melihat di Tab Pertama yang Sebelumnya Sudah kalian Screen, Seperti Gambar di Atas. Instal Node Lite Selesai
+
+# Perintah Berguna Lainnya
+```
+cd ~/inery-node/inery.setup/lite.node/
+```
+```
+./stop.sh
+```
+Untuk Jalankan Node Lagi
+```
+./start.sh
+```
+## Matikan Node Sementara
+
+## Hapus Node
+```
+cd ~/inery-node/inery.setup/lite.node/
+```
+```
+./clean.sh
+```
