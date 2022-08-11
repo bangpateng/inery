@@ -53,6 +53,7 @@ chmod +x ine.py
 cd; source .bashrc; cd -
 ```
 ## Become a Lite Node
+untuk mengonfigurasi node dengan informasi IP server Anda, buka `inery-node/inery.setup/tools/` buka `config.json`
 ```
 cd tools
 ```
