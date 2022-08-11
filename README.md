@@ -32,6 +32,9 @@ chmod +x ine.py
 ```
 ./ine.py --export
 ```
+```
+cd; source .bashrc; cd -
+```
 ## Become a Lite Node
 ```
 cd tools
