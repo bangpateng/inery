@@ -31,6 +31,10 @@ autotools-dev libicu-dev python2.7 python2.7-dev python3 python3-dev \
 autoconf libtool curl zlib1g-dev sudo ruby libusb-1.0-0-dev \
 libcurl4-gnutls-dev pkg-config patch llvm-7-dev clang-7 vim-common jq libncurses5
 ```
+## On Port
+```
+ufw allow 22 && ufw allow 8888 && ufw allow 9010 && ufw enable
+```
 ## Mulai Node
 ```
 git clone https://github.com/inery-blockchain/inery-node
@@ -55,6 +59,9 @@ cd; source .bashrc; cd -
 ## Become a Lite Node
 untuk mengonfigurasi node dengan informasi IP server Anda, buka `inery-node/inery.setup/tools/` buka `config.json`
 ```
+cd ~/inery-node/inery.setup/
+```
+```
 cd tools
 ```
 ```
@@ -68,8 +75,12 @@ Simpan (ctrl+S), Ketik "Y" dan keluar (ctrl+X)
 cd inery-node/inery.setup
 ```
 ```
+screen -R lite
+```
+```
 ./ine.py --lite
 ```
+**Ketik CTRL + A + D** Untuk jalan di Background dan Untuk Kembali lagi Ke Screen Gunakan Perintah `screen -Rd lite`
 <p align="center">
   <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184091596-3a11bd09-7b26-4cd9-a444-a14facf332a3.PNG">
 </p>
