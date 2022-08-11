@@ -44,3 +44,16 @@ nano config.json
 ```
 di Bagian Lite Node "PEER_ADDRESS" : "`IP`:9010" Ganti Dengan IP VPS Kalian
 Simpan (ctrl+S), Ketik "Y" dan keluar (ctrl+X)
+
+## Mulai Protocol Blockchain
+```
+cd inery-node/inery.setup
+```
+```
+./ine.py --lite
+```
+## Jalankan Node
+Buka direktori lite.node dan jalankan skrip ./start.sh
+```
+./start.sh
+```
