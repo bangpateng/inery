@@ -24,6 +24,9 @@
 | ------------ | ------------ |
 | OS |  Ubuntu 18.04 atau lebih tinggi | 
 
+## Sebelum Menjalankan Node Register Akun Testnet Dulu
+Langsung Aja di Daftarin di mari Bang : https://github.com/bangpateng/inery/blob/main/cara-register-testnet.md
+
 ## 1. Update Tools Yang di Perlukan
 ```
 sudo apt-get install -y make bzip2 automake libbz2-dev libssl-dev doxygen graphviz libgmp3-dev \
