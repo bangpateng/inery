@@ -24,26 +24,26 @@
 | ------------ | ------------ |
 | OS |  Ubuntu 18.04 atau lebih tinggi | 
 
-## Update Tools Yang di Perlukan
+## 1. Update Tools Yang di Perlukan
 ```
 sudo apt-get install -y make bzip2 automake libbz2-dev libssl-dev doxygen graphviz libgmp3-dev \
 autotools-dev libicu-dev python2.7 python2.7-dev python3 python3-dev \
 autoconf libtool curl zlib1g-dev sudo ruby libusb-1.0-0-dev \
 libcurl4-gnutls-dev pkg-config patch llvm-7-dev clang-7 vim-common jq libncurses5
 ```
-## On Port
+## 2. On Port
 ```
 ufw allow 22 && ufw allow 8888 && ufw allow 9010 && ufw enable -y
 ```
-## Mulai Node
+## 3. Mulai Node
 ```
 git clone https://github.com/inery-blockchain/inery-node
 ```
-## Explorer BIN
+## 4. Explorer BIN
 ```
 cd inery-node
 ```
-## Beri Izin File
+## 5. Beri Izin File
 ```
 cd inery.setup
 ```
@@ -56,7 +56,7 @@ chmod +x ine.py
 ```
 cd; source .bashrc; cd -
 ```
-## Become a Lite Node
+## 6. Become a Lite Node
 untuk mengonfigurasi node dengan informasi IP server Anda, buka `inery-node/inery.setup/tools/` buka `config.json`
 ```
 cd ~/inery-node/inery.setup/
@@ -70,7 +70,7 @@ nano config.json
 di Bagian Lite Node "PEER_ADDRESS" : "`IP`:9010" Ganti Dengan IP VPS Kalian
 Simpan (ctrl+S), Ketik "Y" dan keluar (ctrl+X)
 
-## Mulai Protocol Blockchain
+## 7. Mulai Protocol Blockchain
 ```
 cd inery-node/inery.setup
 ```
@@ -93,7 +93,7 @@ Jika semuanya diatur dengan benar, setelah menjalankan perintah di atas, Anda se
 
 Jika Sudah Seperti gambar di Bawah diatas, Artinya Block Sudah Jalan
 
-## Jalankan Node
+## 8. Jalankan Node
 Buka direktori lite.node Lokasi : `cd root/inery-node/inery.setup/lite.node/` dan jalankan skrip ./start.sh
 Buka Tab baru atau Tab Lain, Jalankan
 ```
