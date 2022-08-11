@@ -52,6 +52,12 @@ cd inery-node/inery.setup
 ```
 ./ine.py --lite
 ```
+<p align="center">
+  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184091596-3a11bd09-7b26-4cd9-a444-a14facf332a3.PNG">
+</p>
+
+Jika semuanya diatur dengan benar, setelah menjalankan perintah di atas, Anda seharusnya dapat melihat pemutaran ulang blok, mungkin hingga beberapa jam hingga sinkronisasi selesai. Setelah blockchain diputar ulang, Anda akan melihat blok baru yang dibuat
+
 ## Jalankan Node
 Buka direktori lite.node dan jalankan skrip ./start.sh
 ```
