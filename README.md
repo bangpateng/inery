@@ -7,6 +7,23 @@
   <img height="50" height="auto" src="https://user-images.githubusercontent.com/38981255/184088981-3f7376ae-7039-4915-98f5-16c3637ccea3.PNG">
 </p>
 
+# Persyaratan Node
+
+## Perangkat Keras
+
+|  Komponen |  Persyaratan Minimum |
+| ------------ | ------------ |
+| CPU  | Intel Core i7-8700 Hexa-Core  |
+| RAM | DDR4 64 GB  |
+| Penyimpanan  | 2x1 TB NVMe SSD |
+| koneksi | Port 1 Gbit/dtk |
+
+## Perangkat Lunak
+
+|Komponen | Persyaratan Minimum |
+| ------------ | ------------ |
+| OS |  Ubuntu 18.04 atau lebih tinggi | 
+
 ## Update Tools Yang di Perlukan
 ```
 sudo apt-get install -y make bzip2 automake libbz2-dev libssl-dev doxygen graphviz libgmp3-dev \
