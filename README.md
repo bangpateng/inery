@@ -9,6 +9,12 @@
 
 # Tutorial Become a Lite Node
 
+**Dokumen Official :**
+> [Node Lite & Master](https://docs.inery.io/docs/category/lite--master-nodes)
+
+**Explorer :**
+> [Explorer Inary](https://explorer.inery.io/ "Explorer Inary")
+
 ## Perangkat Keras
 
 |  Komponen |  Persyaratan Minimum |
