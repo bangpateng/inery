@@ -189,34 +189,24 @@ cd ~/inery-node/inery.setup/master.node/
 
 ### Lakukan Ini Masih di TAB Baru
 
+## Buat Wallet
 ```
-cd
-cline wallet create --file defaultWallet.txt
+cline wallet create -n <your_name_wallet> -f file.txt
 ```
-Buka File defaultWallet.txt untuk Melihat Password Anda, Masukan Perintah 
+file.txt berisi Password Wallet kalian (Kalian membutuhkan itu Jika Wallet kalian dalam Keadaan Lock)
 ```
-nano defaultWallet.txt
+cline wallet import --private-key <your_private_key> -n <your_name_wallet>
 ```
-```
-cline wallet unlock --password YOUR_WALLET_PASSWORD
-```
-**Contoh :** YOUR_WALLET_PASSWORD Masukan Password
-
-```
-cline wallet import --private-key MASTER_PRIVATE_KEY_KALIAN
-```
-**Contoh :** cline wallet import --private-key 5K9cKdcCkpC66qvqQ3bLMaoLtAfz8PapG3DNC4MBbCzUv888zxD5
+Import Private Key kalian ke Wallet
 
 ### Daftar sebagai produser dengan menjalankan perintah:
 
 ```
-cline system regproducer ACCOUNT_NAME ACCOUNT_PUBLIC_KEY 0.0.0.0:9010
- ```
- 
- - **ACCOUNT_NAME :** Ganti Dengan Nama Akun atau Nama Validator Yang Kalian Buat di Website
- - **ACCOUNT_PUBLIC_KEY :** Masukin Publik Key Yang Kalian Buat di Website
-
-**Contoh :** cline system regproducer bangpateng INE9rgwByyvq2P61ZZka29xSVrC1yHsFC7i9J4zRSVcJ9Qyp7Uvkb 0.0.0.0:9010
+cline system regproducer <your_account> <your_public_key> 0.0.0.0:9010
+```
+```
+cline system makeprod approve <your_account> <your_account>
+```
 
 ### Setujui akun Anda sebagai produser dengan menjalankan perintah:
 
