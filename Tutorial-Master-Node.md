@@ -189,7 +189,6 @@ cd ~/inery-node/inery.setup/master.node/
 
 ### Lakukan Ini Masih di TAB Baru
 
-## 14. Buat Wallet
 ```
 cline wallet create -n <your_name_wallet> -f file.txt
 ```
