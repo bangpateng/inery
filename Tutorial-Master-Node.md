@@ -105,7 +105,7 @@ cd tools
 ```
 nano config.json
 ```
-Untuk Pengguna VPS Azure IP bisa di isi Dengan IP Private Kalian Cari Jalankan Perintah `hostname - i`
+**Penting:** Untuk Pengguna VPS Azure IP bisa di isi Dengan IP Private Kalian Cari Jalankan Perintah `hostname - i`
 
 Pastikan Data Sama Dengan [Akun Testnet](https://github.com/bangpateng/inery/blob/main/cara-register-testnet.md "Akun Testnet") Yang ada di Dasboard Akun Yang Sudah Kalian Buat
 
