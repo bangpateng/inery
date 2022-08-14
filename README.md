@@ -35,7 +35,7 @@ Explorer :
 
 # 2. Lite Node
 
-https://github.com/bangpateng/inery/blob/main/Tuturial-Lite-Node.md
+https://github.com/bangpateng/inery/blob/main/Tutorial-Lite-Node.md
 
 # 3. Master Node
 
