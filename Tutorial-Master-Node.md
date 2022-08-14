@@ -212,6 +212,12 @@ cline system makeprod approve <your_account> <your_account>
 ```
 Semua Perintah di atas Jalankan tanpad tanda (<>)
 
+<p align="center">
+  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184528112-8e93070c-a0ba-43d1-b435-92476fa7177c.PNG">
+</p>
+
+**Note :** Silahkan Check di Explorer Inery ,Congratss Tutorial Master Node Selesai!!!
+
 # Perintah Berguna 
 
 ## Check Saldo Wallet 
