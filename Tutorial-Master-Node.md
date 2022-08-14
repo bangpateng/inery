@@ -224,7 +224,3 @@ rm -rf inery-wallet
 rm -rf file.txt
 rm -rf defaultWallet.txt
 ```
-## Menghapus Private Key dari Wallet
-```
-cline wallet remove_key -n YOUR_WALLET_NAME PUBLIC_KEY_TO_REMOVE
-```
