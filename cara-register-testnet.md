@@ -31,6 +31,10 @@
 - Masukan Password
 - Submit Pendaftaran
 
+## Mendapatkan Nama Server Untuk Pengguna (AZURE)
+
+- Saat Daftar Name Server sama IP Publik samain
+
 <p align="center">
   <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184137069-71beff53-73e6-47e3-b76f-670c269c12b3.PNG">
 </p>
