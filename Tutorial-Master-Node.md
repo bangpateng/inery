@@ -28,7 +28,7 @@ Explorer :
 
 |Komponen | Persyaratan Minimum |
 | ------------ | ------------ |
-| OS |  Ubuntu 18.04 atau lebih tinggi | 
+| OS |  Ubuntu 18.04 atau lebih tinggi  | 
 
 ## Sebelum Menjalankan Node Register Akun Testnet Dulu
 **Langsung Aja di Daftarin di mari Bang :** https://github.com/bangpateng/inery/blob/main/cara-register-testnet.md
