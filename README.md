@@ -28,14 +28,16 @@ Explorer :
 | ------------ | ------------ |
 | OS |  Ubuntu 18.04 atau lebih tinggi | 
 
-## Sebelum Menjalankan Node Register Akun Testnet Dulu
+# 1. Sebelum Menjalankan Node Register Akun Testnet Dulu
 
 **Langsung Aja di Daftarin di mari Bang :** https://github.com/bangpateng/inery/blob/main/cara-register-testnet.md
 
-### Lite Node
+# 2. Lite Node
 
 https://github.com/bangpateng/inery/blob/main/Tuturial-Lite-Node.md
 
-### Master Node
+# 3. Master Node
 
 https://github.com/bangpateng/inery/blob/main/Tutorial-Master-Node.md
+
+Pilih Salah Satu, Jalankan Lite Node atau Master Node (Saran Sih Master Node)
