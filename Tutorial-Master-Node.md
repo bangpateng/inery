@@ -149,9 +149,9 @@ Save CTRL X lalu Y dan Enter
 
 ## 10. Masukan Peer
 ```
---p2p-peer-address 62.210.245.223:9010 \
---p2p-peer-address 192.99.62.6:9010 \
 --p2p-peer-address 15.235.133.9:9010 \
+--p2p-peer-address 147.78.0.168:9010 \
+--p2p-peer-address 38.242.229.50:9010 \
 ```
 
 **Penting :** Peer di Atas, Jika Sudah Tidak Work Kalian Bisa Cari Peer Baru di Discord Group Mereka , Tapi Saat Ini Masih Wangi.
