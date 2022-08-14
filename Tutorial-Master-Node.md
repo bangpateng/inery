@@ -229,3 +229,19 @@ cline system makeprod approve ACCOUNT_NAME ACCOUNT_NAME
 **Contoh :**  cline system makeprod approve bangpateng bangpateng
 
 ## Done
+
+# Perintah Berguna 
+
+## Check Saldo Wallet 
+```
+cline get currency balance inery.token ACCOUNT_NAME
+```
+## Delete Wallet di Node
+```
+cline wallet stop
+```
+```
+rm -rf inery-wallet
+rm -rf file.txt
+rm -rf defaultWallet.txt
+```
