@@ -189,7 +189,7 @@ cd ~/inery-node/inery.setup/master.node/
 
 ### Lakukan Ini Masih di TAB Baru
 
-## Buat Wallet
+## 14. Buat Wallet
 ```
 cline wallet create -n <your_name_wallet> -f file.txt
 ```
@@ -207,18 +207,7 @@ cline system regproducer <your_account> <your_public_key> 0.0.0.0:9010
 ```
 cline system makeprod approve <your_account> <your_account>
 ```
-
-### Setujui akun Anda sebagai produser dengan menjalankan perintah:
-
-```
-cline system makeprod approve ACCOUNT_NAME ACCOUNT_NAME
-```
-
- - **ACCOUNT_NAME :** Ganti Dengan Nama Akun atau Nama Validator Yang Kalian Buat di Website
-
-**Contoh :**  cline system makeprod approve bangpateng bangpateng
-
-## Done
+Semua Perintah di atas Jalankan tanpad tanda (<>)
 
 # Perintah Berguna 
 
