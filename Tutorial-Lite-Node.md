@@ -55,7 +55,7 @@ git clone https://github.com/inery-blockchain/inery-node
 ```
 cd inery-node
 ```
-## 5. Beri Izin File
+## 5. Beri Izin File 
 ```
 cd inery.setup
 ```
