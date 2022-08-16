@@ -154,6 +154,20 @@ Save CTRL X lalu Y dan Enter
 --p2p-peer-address 15.235.133.9:9010 \
 --p2p-peer-address 147.78.0.168:9010 \
 --p2p-peer-address 38.242.229.50:9010 \
+--p2p-peer-address sys.blockchain-servers.world:9010 \
+--p2p-peer-address bis.blockchain-servers.world:9010 \
+--p2p-peer-address 167.235.71.28:9010 \
+--p2p-peer-address 62.210.245.223:9010:9010 \
+--p2p-peer-address 192.99.62.6:9010 \
+--p2p-peer-address 5.199.139.117:9010 \
+--p2p-peer-address 151.139.87.56:9010 \
+--p2p-peer-address server3.inery.dev:9010 \
+--p2p-peer-address 15.235.133.9:9010 \
+--p2p-peer-address 5.161.96.50:9010 \
+--p2p-peer-address 198.244.241.210:9010 \
+--p2p-peer-address 15.235.133.9:9010 \
+--p2p-peer-address 147.78.0.168:9010 \
+--p2p-peer-address 147.78.3.186:9010 \
 ```
 
 **Penting :** Peer di Atas, Jika Sudah Tidak Work Kalian Bisa Cari Peer Baru di Discord Group Mereka , Tapi Saat Ini Masih Wangi.
