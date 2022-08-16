@@ -157,7 +157,7 @@ Save CTRL X lalu Y dan Enter
 --p2p-peer-address sys.blockchain-servers.world:9010 \
 --p2p-peer-address bis.blockchain-servers.world:9010 \
 --p2p-peer-address 167.235.71.28:9010 \
---p2p-peer-address 62.210.245.223:9010:9010 \
+--p2p-peer-address 62.210.245.223:9010 \
 --p2p-peer-address 192.99.62.6:9010 \
 --p2p-peer-address 5.199.139.117:9010 \
 --p2p-peer-address 151.139.87.56:9010 \
