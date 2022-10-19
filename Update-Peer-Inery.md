@@ -39,7 +39,7 @@ cd inery-node/inery.setup/master.node/
 
 ### 3. Tambahkan Peer Address Dengan Perintah
 ```
-nano ./start
+nano start.sh
 ```
 Masukan Semua Peer Ini Lihat Gambar Taro di Garis Merah, Peer 3 Yang Ada Bawaannya Jangan di Apus
 
