@@ -37,11 +37,11 @@ cd inery-node/inery.setup/master.node/
   <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/196684866-002b9a7c-ec0f-4b94-82d7-fb41528b7930.png">
 </p>
 
-### 3. Ubah Peer Address Dengan Perintah
+### 3. Tambahkan Peer Address Dengan Perintah
 ```
 nano ./start
 ```
-Masukan Semua Peer Ini Lihat Gambar Taro di Garis Merah
+Masukan Semua Peer Ini Lihat Gambar Taro di Garis Merah, Peer 3 Yang Ada Bawaannya Jangan di Apus
 
 ```
 --p2p-peer-address 5.189.138.167:9010 \
