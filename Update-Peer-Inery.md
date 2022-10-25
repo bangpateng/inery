@@ -44,12 +44,14 @@ nano start.sh
 Masukan Semua Peer Ini Lihat Gambar Taro di Garis Merah, Peer 3 Yang Ada Bawaannya Jangan di Apus
 
 ```
---p2p-peer-address 5.189.138.167:9010 \
---p2p-peer-address 38.242.234.139:9010 \
---p2p-peer-address 86.48.0.180:9010 \
---p2p-peer-address 185.169.252.86:9010 \
---p2p-peer-address 185.207.250.86:9010 \
---p2p-peer-address 38.242.130.28:9010 \
+--p2p-peer-address 167.235.3.147:9010 \
+--p2p-peer-address 135.181.133.169:9010 \
+--p2p-peer-address bis.blockchain-servers.world \
+--p2p-peer-address 62.210.245.223:9010 \
+--p2p-peer-address 185.144.99.30:9010 \
+--p2p-peer-address 38.242.153.15:9010 \
+--p2p-peer-address 75.119.150.78:9010 \
+--p2p-peer-address 192.46.226.189:9010 \
 --p2p-peer-address 95.217.134.209:9010 \
 --p2p-peer-address 78.46.123.82:9010 \
 --p2p-peer-address 161.97.153.16:9010 \
@@ -96,13 +98,23 @@ Masukan Semua Peer Ini Lihat Gambar Taro di Garis Merah, Peer 3 Yang Ada Bawaann
 --p2p-peer-address 149.102.143.144:9010 \
 --p2p-peer-address 161.97.169.27:9010 \
 --p2p-peer-address 38.242.219.100:9010 \
---p2p-peer-address bis.blockchain-servers.world \
---p2p-peer-address 193.111.198.52 \
---p2p-peer-address 62.210.245.223 \
---p2p-peer-address 185.144.99.30 \
---p2p-peer-address 38.242.153.15 \
---p2p-peer-address 192.46.226.189 \
---p2p-peer-address 194.5.152.187 \
+--p2p-peer-address 45.94.209.59:9010 \
+--p2p-peer-address 167.235.3.147:9010 \
+--p2p-peer-address 138.68.128.123:9010 \
+--p2p-peer-address 65.108.255.170:9010 \
+--p2p-peer-address 38.242.156.82:9010 \
+--p2p-peer-address 5.161.55.130:9010 \
+--p2p-peer-address 194.163.162.155:9010 \
+--p2p-peer-address 75.119.151.217:9010 \
+--p2p-peer-address 168.119.100.166:9010 \
+--p2p-peer-address 209.145.56.41:9010 \
+--p2p-peer-address 38.242.211.194:9010 \
+--p2p-peer-address 173.212.237.51:9010 \
+--p2p-peer-address 161.97.169.22:9010 \
+--p2p-peer-address 194.5.152.187:9010 \
+--p2p-peer-address 45.141.122.178:9010 \
+--p2p-peer-address 173.249.33.164:9010 \
+--p2p-peer-address 128.199.164.137:9010 \
 ```
 
 Simpan CTRL X Y ENTER
