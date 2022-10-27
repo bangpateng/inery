@@ -135,12 +135,13 @@ screen -R master
 
 ### Jika Menunjukan Seperti di Atas, Anda Harus Mengganti Peer di, Gunakan Perintah (Lakukan di TAB Baru)
 ```
+cd
 cd inery-node/inery.setup/master.node/
 nano genesis_start.sh
 ```
 
 Save CTRL X lalu Y dan Enter
-## 9. Add Peer baru
+## 9. Add Peer baru (Optional Lakukan Jika Tidak Sinkron , Jika Sinkron Sekip Saja Bagian ini)
 <p align="center">
   <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184370626-5b3dc227-3800-4140-a9c0-ce5b0b13e1e1.PNG">
 </p>
@@ -153,28 +154,12 @@ Save CTRL X lalu Y dan Enter
 
 ## 10. Masukan Peer
 ```
---p2p-peer-address 15.235.133.9:9010 \
---p2p-peer-address 147.78.0.168:9010 \
---p2p-peer-address 38.242.229.50:9010 \
---p2p-peer-address sys.blockchain-servers.world:9010 \
---p2p-peer-address bis.blockchain-servers.world:9010 \
---p2p-peer-address 167.235.71.28:9010 \
---p2p-peer-address 62.210.245.223:9010 \
---p2p-peer-address 192.99.62.6:9010 \
---p2p-peer-address 5.199.139.117:9010 \
---p2p-peer-address 151.139.87.56:9010 \
---p2p-peer-address server3.inery.dev:9010 \
---p2p-peer-address 15.235.133.9:9010 \
---p2p-peer-address 5.161.96.50:9010 \
---p2p-peer-address 198.244.241.210:9010 \
---p2p-peer-address 15.235.133.9:9010 \
---p2p-peer-address 147.78.0.168:9010 \
---p2p-peer-address 147.78.3.186:9010 \
+BELON ADA PEER TERBARU
 ```
 
 **Penting :** Peer di Atas, Jika Sudah Tidak Work Kalian Bisa Cari Peer Baru di Discord Group Mereka , Tapi Saat Ini Masih Wangi.
 
-## 11. Restart Node
+## 11. Restart Node (Optional Berguna Jika Anda Habis Ganti Peer)
 ```
 ./stop.sh
 ```
