@@ -205,6 +205,11 @@ cline wallet import --private-key <your_private_key> -n <your_name_wallet>
 ```
 Import Private Key kalian ke Wallet
 
+✅BUKA KUNCI WALLET (Jika Wallet Kalian ada Tulisan Locked
+
+cline wallet unlock -n YourWalletName
+
+
 ### Daftar sebagai produser dengan menjalankan perintah:
 
 ```
