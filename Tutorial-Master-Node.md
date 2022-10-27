@@ -118,6 +118,7 @@ Simpan (ctrl+x), Ketik "Y" dan keluar (enter)
 </p>
 
 ```
+cd
 cd inery-node/inery.setup
 ```
 ```
