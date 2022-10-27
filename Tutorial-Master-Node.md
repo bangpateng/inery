@@ -97,6 +97,7 @@ untuk mengonfigurasi node dengan informasi Akun Anda, Tolong Perhatikan dan Teli
 
 ## 7. Buka Config Kalian Lalu Edit, Perintahnya : 
 ```
+cd
 cd inery-node/inery.setup
 ```
 ```
