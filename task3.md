@@ -123,14 +123,14 @@ inery-cpp $HOME/inrcrud/inrcrud.cpp -o $HOME/inrcrud/inrcrud.wasm
 </p>
 
 ```
-cline wallet unlock -n bgpateng
+cline wallet unlock -n Your-name-account
 ```
 **Masukan Kata Sandi Wallet Kalian**
 
 ## ✅ SET CONTRACT
 
 ```
-cline set contract bgpateng ./inrcrud
+cline set contract Your-name-account ./inrcrud
 ```
 ## ✅ CREATE
 
@@ -139,7 +139,7 @@ cline set contract bgpateng ./inrcrud
 </p>
 
 ```
-cline push action bgpateng create '[1, "bgpateng", "My first Record"]' -p bgpateng --json
+cline push action bgpateng create '[1, "Your-name-account", "My first Record"]' -p Your-name-account --json
 ```
 ## ✅ READ
 
@@ -148,7 +148,7 @@ cline push action bgpateng create '[1, "bgpateng", "My first Record"]' -p bgpate
 </p>
 
 ```
-cline push action bgpateng read [1] -p bgpateng --json
+cline push action Your-name-account read [1] -p Your-name-account --json
 ```
 ## ✅ UPDATE
 
@@ -157,7 +157,7 @@ cline push action bgpateng read [1] -p bgpateng --json
 </p>
 
 ```
-cline push action bgpateng update '[ 1,  "My first Record Modified"]' -p bgpateng --json
+cline push action Your-name-account update '[ 1,  "My first Record Modified"]' -p Your-name-account --json
 ```
 ## ✅ DESTROY
 
@@ -166,6 +166,6 @@ cline push action bgpateng update '[ 1,  "My first Record Modified"]' -p bgpaten
 </p>
 
 ```
-cline push action bgpateng destroy [1] -p bgpateng --json
+cline push action Your-name-account destroy [1] -p Your-name-account --json
 ```
 **Tinggal Ke Web Testnet Inerynya Dah, Di Bagian Task 3 Klik Read More dan Klik Finish, Done Tunggu Review Approve**
