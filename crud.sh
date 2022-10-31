@@ -34,12 +34,4 @@ echo -e "\e[1m\e[32m2. Clone Github... \e[0m" && sleep 1
 cd ~
 git clone --recursive https://github.com/inery-blockchain/inery.cdt
 
-echo -e "\e[1m\e[32m3. Set Path... \e[0m" && sleep 1
-# Set Path
-export PATH="$PATH:$HOME/inery.cdt/bin:$HOME/inery-node/inery/bin"
-
-echo -e "\e[1m\e[32m4. Create Folder... \e[0m" && sleep 1
-# Create Folder
-mkdir -p $HOME/inrcrud
-
-echo '=============== SETUP FINISHED ===================' && sleep 1
+echo '=============== SETUP FINISHED NEXT STEP ===================' && sleep 1
