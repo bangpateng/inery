@@ -21,15 +21,6 @@ echo "======================================="
 
 sleep 2
 
-# set vars
-if [ ! $NAME ]; then
-	read -p "Masukan Nama Akun Node Kalian: " NAME
-	echo 'export NAME='$NAME >> $HOME/.bash_profile
-fi
-source $HOME/.bash_profile
-
-sleep 2
-
 echo -e "\e[1m\e[32m1. Updating packages... \e[0m" && sleep 1
 # update
 sudo apt update -y && sudo apt upgrade -y
