@@ -14,6 +14,15 @@
 ```
 wget -qO crud.sh https://raw.githubusercontent.com/bangpateng/inery/main/crud.sh && chmod +x crud.sh && ./crud.sh
 ```
+
+## Set Path
+```
+export PATH="$PATH:$HOME/inery.cdt/bin:$HOME/inery-node/inery/bin"
+```
+## Create Folder
+```
+mkdir -p $HOME/inrcrud
+```
 ## Write Code (Paste Aja Langsung Kaga Usah di Edat Edit)
 
 <p align="center">
