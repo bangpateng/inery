@@ -42,3 +42,10 @@ https://github.com/bangpateng/inery/blob/main/Tutorial-Lite-Node.md
 https://github.com/bangpateng/inery/blob/main/Tutorial-Master-Node.md
 
 Pilih Salah Satu, Jalankan Lite Node atau Master Node (Saran Sih Master Node)
+
+# 4. Task Inery Get Reward INR Mainnet
+
+- [Task 1](https://github.com/bangpateng/inery/blob/main/task1.md "Task 1")
+- [Task 2](https://github.com/bangpateng/inery/blob/main/task2.md "Task 2")
+- [Task 3](https://github.com/bangpateng/inery/blob/main/task3.md "Task 3")
+- Task 4 (soon)
