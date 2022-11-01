@@ -139,7 +139,7 @@ cline set contract Your-name-account ./inrcrud
 </p>
 
 ```
-cline push action bgpateng create '[1, "Your-name-account", "My first Record"]' -p Your-name-account --json
+cline push action Your-name-account create '[1, "Your-name-account", "My first Record"]' -p Your-name-account --json
 ```
 ## ✅ READ
 
