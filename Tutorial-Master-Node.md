@@ -78,14 +78,8 @@ cd inery-node
 
 ```
 cd inery.setup
-```
-```
 chmod +x ine.py
-```
-```
 ./ine.py --export
-```
-```
 cd; source .bashrc; cd -
 ```
 ## 6. Become a Master Node
@@ -99,8 +93,6 @@ untuk mengonfigurasi node dengan informasi Akun Anda, Tolong Perhatikan dan Teli
 ```
 cd
 cd inery-node/inery.setup/tools
-```
-```
 nano config.json
 ```
 **Penting:** Untuk Pengguna VPS Azure IP bisa di isi Dengan IP Private Kalian Cari Jalankan Perintah `hostname - i`
