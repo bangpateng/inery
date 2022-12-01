@@ -122,47 +122,6 @@ screen -R master
 **Ketik CTRL + A + D** Untuk jalan di Background dan Untuk Kembali lagi Ke Screen Gunakan Perintah `screen -Rd master`
 
 <p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184290965-fd0f6127-d351-4f55-9102-18aa1bbb38c2.PNG">
-</p>
-
-### Jika Menunjukan Seperti di Atas, Anda Harus Mengganti Peer di, Gunakan Perintah (Lakukan di TAB Baru)
-```
-cd
-cd inery-node/inery.setup/master.node/
-nano genesis_start.sh
-```
-
-Save CTRL X lalu Y dan Enter
-## 9. Add Peer baru (Optional Lakukan Jika Tidak Sinkron , Jika Sinkron Sekip Saja Bagian ini)
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184370626-5b3dc227-3800-4140-a9c0-ce5b0b13e1e1.PNG">
-</p>
-
-**Isi Seperti Pada Contoh Gambar**
-
-- 62.210.245.223
-- 192.99.62.6
-- 15.235.133.9
-
-## 10. Masukan Peer
-```
-BELON ADA PEER TERBARU
-```
-
-**Penting :** Peer di Atas, Jika Sudah Tidak Work Kalian Bisa Cari Peer Baru di Discord Group Mereka , Tapi Saat Ini Masih Wangi.
-
-## 11. Restart Node (Optional Berguna Jika Anda Habis Ganti Peer)
-```
-./stop.sh
-```
-
-Tunggu Sekitar 5-10 Detik
-
-```
-./genesis_start.sh
-```
-
-<p align="center">
   <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184370620-b73f5269-50ad-47aa-9b03-d55d8718c614.PNG">
 </p>
 
@@ -174,13 +133,13 @@ Jika Sudah Seperti Gambar di Atas, Artinya Sudah jalan dan Tunggu Sampai 1 - 2 J
 
 Jika Sudah Seperti gambar di atas, Artilnya Sudah Selesai Sinkron, Silahkan Lanjut Next Step
 
-## 12. Start Node
+## 9. Start Node
 ### Lakukan Ini Masih di TAB Baru
 ```
 cd ~/inery-node/inery.setup/master.node/
 ./start.sh
 ```
-## 13. Daftar dan setujui (Menghubungkan Wallet dengan Dasboard Akun)
+## 10. Daftar dan setujui (Menghubungkan Wallet dengan Dasboard Akun)
 
 ### Lakukan Ini Masih di TAB Baru
 
@@ -234,3 +193,12 @@ rm -rf inery-wallet
 rm -rf file.txt
 rm -rf defaultWallet.txt
 ```
+
+| Kerjakan Task  |
+| ------------ |
+| [Task 1](https://github.com/bangpateng/inery/blob/main/task1.md "Task 1")  |
+| [Task 2](https://github.com/bangpateng/inery/blob/main/task2.md "Task 2")  |
+|  [Task 3 ](https://github.com/bangpateng/inery/blob/main/task3.md "Task 3 ") |
+|  Task 4 Soon  |
+|  Task 4 Soon  |
+
