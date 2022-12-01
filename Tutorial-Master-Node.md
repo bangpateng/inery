@@ -178,6 +178,16 @@ Semua Perintah di atas Jalankan tanpad tanda (<>)
 
 **Note :** Silahkan Check di Explorer Inery ,Congratss Tutorial Master Node Selesai!!!
 
+## 11. Task Untuk Mendapatkan Reward INR Real
+
+| Kerjakan Task  |
+| ------------ |
+| [Task 1](https://github.com/bangpateng/inery/blob/main/task1.md "Task 1")  |
+| [Task 2](https://github.com/bangpateng/inery/blob/main/task2.md "Task 2")  |
+|  [Task 3 ](https://github.com/bangpateng/inery/blob/main/task3.md "Task 3 ") |
+|  Task 4 Soon  |
+|  Task 4 Soon  |
+
 # Perintah Berguna 
 
 ## Check Saldo Wallet 
@@ -194,11 +204,5 @@ rm -rf file.txt
 rm -rf defaultWallet.txt
 ```
 
-| Kerjakan Task  |
-| ------------ |
-| [Task 1](https://github.com/bangpateng/inery/blob/main/task1.md "Task 1")  |
-| [Task 2](https://github.com/bangpateng/inery/blob/main/task2.md "Task 2")  |
-|  [Task 3 ](https://github.com/bangpateng/inery/blob/main/task3.md "Task 3 ") |
-|  Task 4 Soon  |
-|  Task 4 Soon  |
+
 
