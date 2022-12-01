@@ -68,7 +68,7 @@ git clone https://github.com/inery-blockchain/inery-node
 ```
 ## 4. Explorer BIN
 ```
-cd inery-node
+cd inery-node/inery.setup
 ```
 ## 5. Beri Izin File
 
@@ -77,10 +77,9 @@ cd inery-node
 </p>
 
 ```
-cd inery.setup
-chmod +x ine.py
-./ine.py --export
-cd; source .bashrc; cd -
+rm ine.py
+wget https://raw.githubusercontent.com/bangpateng/inery/main/run.py; chmod +x run.py
+wget https://raw.githubusercontent.com/bangpateng/inery/main/ine.py; chmod +x ine.py
 ```
 ## 6. Become a Master Node
 untuk mengonfigurasi node dengan informasi Akun Anda, Tolong Perhatikan dan Teliti
