@@ -81,6 +81,10 @@ rm ine.py
 wget https://raw.githubusercontent.com/bangpateng/inery/main/run.py; chmod +x run.py
 wget https://raw.githubusercontent.com/bangpateng/inery/main/ine.py; chmod +x ine.py
 ```
+
+```
+./run.py
+```
 ## 6. Become a Master Node
 untuk mengonfigurasi node dengan informasi Akun Anda, Tolong Perhatikan dan Teliti
 
