@@ -133,13 +133,7 @@ Jika Sudah Seperti Gambar di Atas, Artinya Sudah jalan dan Tunggu Sampai 1 - 2 J
 
 Jika Sudah Seperti gambar di atas, Artilnya Sudah Selesai Sinkron, Silahkan Lanjut Next Step
 
-## 9. Start Node
-### Lakukan Ini Masih di TAB Baru
-```
-cd ~/inery-node/inery.setup/master.node/
-./start.sh
-```
-## 10. Daftar dan setujui (Menghubungkan Wallet dengan Dasboard Akun)
+## 9. Daftar dan setujui (Menghubungkan Wallet dengan Dasboard Akun)
 
 ### Lakukan Ini Masih di TAB Baru
 
@@ -178,7 +172,7 @@ Semua Perintah di atas Jalankan tanpad tanda (<>)
 
 **Note :** Silahkan Check di Explorer Inery ,Congratss Tutorial Master Node Selesai!!!
 
-## 11. Task Untuk Mendapatkan Reward INR Real
+## 10. Task Untuk Mendapatkan Reward INR Real
 
 | Kerjakan Task  |
 | ------------ |
