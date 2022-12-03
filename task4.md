@@ -60,3 +60,5 @@ Output Begini Artinya Sudah Done :
 ```
 
 Langsung Menuju Dasboard Inery Testnetnya dan Klik Finish di Task 4 Nya dan Tunggu Hasil Review
+
+**Thanks To > alteregogi**
