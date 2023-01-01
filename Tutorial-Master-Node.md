@@ -30,173 +30,252 @@ Explorer :
 | ------------ | ------------ |
 | OS |  Ubuntu 18.04 atau lebih tinggi  | 
 
-## Sebelum Menjalankan Node Register Akun Testnet Dulu
-**Langsung Aja di Daftarin di mari Bang :** https://github.com/bangpateng/inery/blob/main/cara-register-testnet.md
+## Update Inery-node
 
-## 1. Update Tools Yang di Perlukan
+Karena ada beberapa binaries yang di update oleh dev Inery jadi kita perlu update nodenya
 
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184288420-51676f99-2069-417c-aa9e-cdf28a24e9dd.PNG">
-</p>
+Ikuti langkah-langkah berikut
 
-```
-sudo apt-get update && sudo apt install git && sudo apt install screen
-```
+* Hentikan node
+  ```console
+  cd $HOME/inery-node/inery.setup/master.node
+  ./stop.sh
+  ```
+  Cek apakah node sudah berhenti
+  ```console
+  pidof nodine
+  ```
 
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184288416-3eab98fb-2544-4be8-bae2-f6c99210750d.PNG">
-</p>
+* Hapus Inery node
+  ```console
+  cd $HOME
+  rm -rf inery-node
+  ```
 
-```
-sudo apt-get install -y make bzip2 automake libbz2-dev libssl-dev doxygen graphviz libgmp3-dev \
-autotools-dev libicu-dev python2.7 python2.7-dev python3 python3-dev \
-autoconf libtool curl zlib1g-dev sudo ruby libusb-1.0-0-dev \
-libcurl4-gnutls-dev pkg-config patch llvm-7-dev clang-7 vim-common jq libncurses5
-```
-## 2. On Port (optional)
-```
-ufw allow 22 && ufw allow 8888 && ufw allow 9010 && ufw enable -y
-```
-## 3. Mulai Node
+* Download Inery node versi terbaru
+  ```console
+   git clone  https://github.com/inery-blockchain/inery-node
+  ```
 
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184288675-1c551b8f-f882-45d9-9058-ae95c7888963.PNG">
-</p>
+* Masuk ke folder `inery.setup`
+  ```console
+   cd inery-node/inery.setup
+  ```
 
-```
-git clone https://github.com/inery-blockchain/inery-node
-```
-## 4. Explorer BIN
-```
-cd inery-node/inery.setup
-```
-## 5. Beri Izin File
+* Ubah `ine.py` menjadi executable
+  ```console
+  chmod +x ine.py
+  ```
 
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184288914-bcea524f-d32e-4460-a971-913af8c359a9.PNG">
-</p>
+* Export path
+  ```console
+  ./ine.py --export
+  ```
 
-```
-rm ine.py
-wget https://raw.githubusercontent.com/bangpateng/inery/main/run.py; chmod +x run.py
-wget https://raw.githubusercontent.com/bangpateng/inery/main/ine.py; chmod +x ine.py
-```
+* Load path
+  ```console
+  source $HOME/.bashrc
+  ```
 
-```
-./run.py
-```
-## 6. Become a Master Node
-untuk mengonfigurasi node dengan informasi Akun Anda, Tolong Perhatikan dan Teliti
+* Ubah konfigurasi
+  ```console
+  nano tools/config.json
+  ```
+  Cari `MASTER_ACCOUNT` lalu ubah value seperti berikut
+  | Informasi | Keterangan |
+  |-----------|------------|
+  |NAME|Isi dengan nama akun anda|
+  |PUBLIC_KEY|Isi dengan public key anda|
+  |PRIVATE_KEY|Isi dengan private key anda|
+  |PEER_ADDRESS|Di bagian IP ganti dengan IP VPS anda|
 
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184290164-85371bac-f97a-4f8d-8cf8-63e5b5297f83.PNG">
-</p>
+  Lalu simpan konfigurasi dengan menekan <kbd>CTRL</kbd>+<kbd>x</kbd>+<kbd>y</kbd>
 
-## 7. Buka Config Kalian Lalu Edit, Perintahnya : 
-```
-cd
-cd inery-node/inery.setup/tools
-nano config.json
-```
-**Penting:** Untuk Pengguna VPS Azure IP bisa di isi Dengan IP Private Kalian Cari Jalankan Perintah `hostname - i`
+* Jalankan node
+  ```console
+  ./ine.py --master
+  ```
 
-Pastikan Data Sama Dengan [Akun Testnet](https://github.com/bangpateng/inery/blob/main/cara-register-testnet.md "Akun Testnet") Yang ada di Dasboard Akun Yang Sudah Kalian Buat
+* Cek log node
+  ```console
+  tail -f master.node/blockchain/nodine.log
+  ```
 
-Simpan (ctrl+x), Ketik "Y" dan keluar (enter)
-
-## 8. Mulai Protocol Blockchain
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184290968-0dd5773f-6c08-4a5d-a5a2-11c4db67678b.PNG">
-</p>
-
-```
-cd
-cd inery-node/inery.setup
-```
-```
-screen -R master
-```
-```
-./ine.py --master
-```
-**Ketik CTRL + A + D** Untuk jalan di Background dan Untuk Kembali lagi Ke Screen Gunakan Perintah `screen -Rd master`
-
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184370620-b73f5269-50ad-47aa-9b03-d55d8718c614.PNG">
-</p>
-
-Jika Sudah Seperti Gambar di Atas, Artinya Sudah jalan dan Tunggu Sampai 1 - 2 Jam Untuk Mensinkronkan (Ngejar Block Yang Ada di Explorer) `JADI KUDU SABAR SIRR..`
-
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184388159-4b0ebd21-8b4e-4f28-a10f-03b1626db075.PNG">
-</p>
-
-Jika Sudah Seperti gambar di atas, Artilnya Sudah Selesai Sinkron, Silahkan Lanjut Next Step
-
-## 9. Daftar dan setujui (Menghubungkan Wallet dengan Dasboard Akun)
-
-### Lakukan Ini Masih di TAB Baru
-
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184527922-31fd49ff-84f1-4023-8f65-ec53d86ac65c.PNG">
-</p>
-
-```
-cline wallet create -n <your_name_wallet> -f file.txt
-```
-file.txt berisi Password Wallet kalian (Kalian membutuhkan itu Jika Wallet kalian dalam Keadaan Lock)
-```
-cline wallet import --private-key <your_private_key> -n <your_name_wallet>
-```
-Import Private Key kalian ke Wallet
-
-✅BUKA KUNCI WALLET (Jika Wallet Kalian ada Tulisan Locked
-
-```
-cline wallet unlock -n YourWalletName
+Jika node sudah tersinkronisasi jalankan script `start.sh`
+```console
+./master.node/start.sh
 ```
 
-### Daftar sebagai produser dengan menjalankan perintah:
+Lalu daftar menjadi produser blok
+
+* Daftarkan akun menjadi produser
+  ```console
+  cline master bind <NAMA_AKUN> <PUBLIC_KEY_AKUN> <IP_VPS>:9010
+  ```
+
+  Hapus `<>` dan ganti sesuai petunjuk
+
+  Jika terjadi error `wallet not unlocked` maka anda harus membuka dompet dulu
+
+  ```console
+  cline wallet unlock -n <NAMA_DOMPET> -p <PASSWORD_DOMPET>
+  ```
+
+* Izinkan akun sebagai produser
+  ```console
+  cline master approve <NAMA_AKUN>
+  ```
+
+  Jika terjadi error `unable to find key` maka anda harus claim faucet lagi, lalu ulangi perintah diatas 
+
+* Cek apakah akun sudah memproduksi blok
+  ```console
+  cline get account <NAMA_AKUN>
+  ```
+
+  Jika muncul seperti ini di terminal maka artinya akun telah memproduksi blok
+
+  ```console
+  created: 2022-11-29T09:59:25.500
+  permissions:
+       owner     1:    1 INE76WN7KvNS35HCXjCVUGUwoh2217KgAZpsD4eu6vM9CYFbkJWLo
+          active     1:    1 INE76WN7KvNS35HCXjCVUGUwoh2217KgAZpsD4eu6vM9CYFbkJWLo
+  memory:
+       quota:     1.001 MiB    used:     5.062 KiB
+  
+  net bandwidth:
+       staked:          1.0000 INR           (total stake delegated from account to self)
+       delegated:       2.0000 INR           (total staked delegated to account from others)                                                                                           used:             3.026 KiB
+       available:        32.32 GiB                                                             limit:            32.32 GiB                                                                                                                                                cpu bandwidth:
+       staked:          1.0000 INR           (total stake delegated from account to self)
+       delegated:       2.0000 INR           (total staked delegated to account from others)
+       used:             27.15 ms
+       available:        1.839 hr                                                              limit:            1.839 hr
+
+  INR balances:
+       liquid:        50000.0000 INR
+       staked:            2.0000 INR
+       unstaking:         0.0000 INR
+       total:         50002.0000 INR                                                      
+  producers:
+       <NAMA_AKUNMU>
+  ```
+
+
+## Perintah berguna
+
+### Mengecek log
 
 ```
-cline system regproducer <your_account> <your_public_key> 0.0.0.0:9010
-```
-```
-cline system makeprod approve <your_account> <your_account>
-```
-Semua Perintah di atas Jalankan tanpad tanda (<>)
-
-<p align="center">
-  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/184528112-8e93070c-a0ba-43d1-b435-92476fa7177c.PNG">
-</p>
-
-**Note :** Silahkan Check di Explorer Inery ,Congratss Tutorial Master Node Selesai!!!
-
-## 10. Task Untuk Mendapatkan Reward INR Real
-
-| Kerjakan Task  |
-| ------------ |
-| [Task 1](https://github.com/bangpateng/inery/blob/main/task1.md "Task 1")  |
-| [Task 2](https://github.com/bangpateng/inery/blob/main/task2.md "Task 2")  |
-|  [Task 3 ](https://github.com/bangpateng/inery/blob/main/task3.md "Task 3 ") |
-|  Task 4 Soon  |
-|  Task 4 Soon  |
-
-# Perintah Berguna 
-
-## Check Saldo Wallet 
-```
-cline get currency balance inery.token ACCOUNT_NAME
-```
-## Delete Wallet di Node
-```
-cline wallet stop
-```
-```
-rm -rf inery-wallet
-rm -rf file.txt
-rm -rf defaultWallet.txt
+tail -f blockchain/nodine.log
 ```
 
+> pastikan anda sudah berada di folder `master.node` atau `lite.node`
+
+### Mengecek informasi blockchain
+
+```
+cline get info
+```
+
+### Mengecek informasi akun
+
+```
+cline get account NAMA_AKUN_YANG_INGIN_DICEK
+```
+
+### Mengecek transaksi dari blockchain
+
+```
+ cline get transaction TX_ID
+```
+
+### Membuat dompet baru
+
+```
+cline wallet create --name NAMA_DOMPET --file NAMA_FILE.txt
+```
+
+> Salin sandi anda ke tempat yang aman, karena ada bug yang mengakibatkan sandi didalam file .txt hilang, yang mengakibatkan dompet tidak dapat dibuka
+
+### Membuka dompet yang terkunci
+
+```
+cline wallet unlock --name NAMA_DOMPET --password KATA_SANDI_DOMPET
+```
+
+### Membuka dompet yang sudah terbuka
+
+```
+cline wallet open --name NAMA_DOMPET
+```
+
+### Mengimpor private key
+
+```
+cline wallet import --name NAMA_DOMPET --private-key PRIVATE_KEY
+```
+
+> Sebelum mengimpor private key, pastikan bahwa dompet yang anda gunakan sudah terbuka
+
+### Melihat list dompet
+
+```
+cline wallet list
+```
+
+> `*` pada dompet menandakan bahwa dompet terbuka
+
+### Melihat public key dari dompet yang terbuka
+
+```
+cline wallet keys
+```
+
+### Melihat private key dari dompet yang terbuka
+
+```
+ cline wallet private_keys --name NAMA_DOMPET --password KATA_SANDI_DOMPET
+```
+
+### Transfer token
+
+```
+ cline transfer ALAMAT_PENGIRIM ALAMAT_PENERIMA JUMLAH_YANG_AKAN_DITRANSFER
+```
 
 
+## Troubleshoot
+
+Ada beberapa masalah yang mungkin timbul saat proses pemasangan dan menhjalankan node, di bagian ini saya akan memberikan solusi dari masalah-masalah tersebut
+
+### Saya lupa kata sandi dompet saya, bagaimana saya membuka dompet saya
+
+Jika anda lupa kata sandi dompet anda, maka dompet anda tidak akan bisa dibuka kembali. Solusinya adalah membuat dompet baru dan memasukan `private key` yang sama seperti sebelumnya
+
+Untuk cara membuat dompet baru bisa anda lihat di bagian `Perintah berguna`, kali ini jangan lupa untuk menyimpan sandi anda
+
+### FileNotFoundError: [Errno 2] No such file or directory: './blockchain/config/config.ini'
+
+Jika pesan error ini muncul kemungkinan karena `libssl 1.1` tidak terpasang di server anda, untuk memasangnya silahkan gunakan perintah dibawah
+
+```
+wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
+sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
+```
+
+### net_plugin::plugin_startup failed to bind to port 9010
+
+Jika pesan error ini muncul maka penyebabnya karena `nodine` masinh berjalan di latar belakang, solusinya adalah mematikan `nodine`. Anda bisa menggunakan perintah dibawah untuk mematikan `nodine`
+
+```
+pidkill nodine
+```
+
+Untuk memastikan bahwa `nodine` sudah berhenti, anda bisa menggunakan perintah ini
+
+```
+pidof nodine
+```
+
+Setelah memastikan `nodine` benar-benar berhenti, anda dapat menjalankan node lagi
