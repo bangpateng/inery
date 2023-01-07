@@ -9,56 +9,8 @@
 
 # TASK 4
 
-```
-sudo apt update
-sudo apt-get install curl
-sudo apt install nodejs npm
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt install nodejs
-export PATH=~/opt/bin:$PATH
-```
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
-apt install npm
-npm install npm@latest -g
-```
-```
-git clone https://github.com/alteregogi/ineryjs.git
-cd ineryjs
-```
-```
-cp .env-sample .env
-nano .env
-```
+### Update Task 4 Inery 
 
-Simpan `CTRL` `X` `Y`
-
-- INERY_ACCOUNT="Masukan-Nama-Node-Validator-Kalian"
-- PRIVATE_KEY="Masukan-Private-Key-Kalian"
-- NODE_URL="http://Masukan-IP-VPS-Kalian:8888"
-
-```
-npm run rpc-example
-```
-Output Begini Artinya Sudah Done :
-
-```
-{
-  transaction_id: '8a58f296e11f2xxxxxxxxxxxx3f639658f9a0dcca8cfa7194b57d946af5',
-  processed: {
-    id: '8a58f296e11f29153xxxxxxxxxxxxdcca8cfa7194b57d946af5',
-    block_num: 1204983,
-    block_time: '2022-12-03T22:25:04.500',
-    receipt: { status: 'executed', cpu_usage_us: 1354, net_usage_words: 18 },
-    elapsed: 1354,
-    net_usage: 144,
-    scheduled: false,
-    action_traces: [ [Object] ],
-    failed_dtrx_trace: null
-  }
-}
-```
-
-Langsung Menuju Dasboard Inery Testnetnya dan Klik Finish di Task 4 Nya dan Tunggu Hasil Review
+https://github.com/node-ronin/testnet_tutorial/tree/main/inery/task-4
 
 **Thanks To > alteregogi**
